@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
+import { Header } from '@/app/widgets'
 
 const mulishFont = localFont({
   src: [
@@ -46,8 +47,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${mulishFont.className} ${mulishFont.variable} antialiased`}
+        className={`${mulishFont.className} ${mulishFont.variable} antialiased relative`}
       >
+        <Header />
         {children}
       </body>
     </html>
