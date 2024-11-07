@@ -18,11 +18,15 @@ const config: Config = {
       16: '16px',
       12: '12px',
       8: '8px',
+      4: '4px',
     },
     extend: {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        'grey-100': 'var(--grey-100)',
+        'grey-500': 'var(--grey-500)',
+        'grey-600': 'var(--grey-600)',
         50: 'var(--50)',
         100: 'var(--100)',
         200: 'var(--200)',

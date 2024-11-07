@@ -12,7 +12,7 @@ export const AppDownloadLinks = ({
   return (
     <Link
       href={platform === 'ios' ? LINKS.ios : LINKS.android}
-      className="flex items-center justify-center bg-gradient-to-b from-white to-50 rounded-8 px-6 py-2.5 gap-2.5"
+      className="flex items-center justify-center bg-gradient-to-b from-white from-[20%] to-50 rounded-8 px-6 py-2.5 gap-2.5 shadow-[0px_7px_16px_#2895FF20]"
       target="_blank"
     >
       <Image

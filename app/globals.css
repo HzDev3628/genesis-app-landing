@@ -11,6 +11,10 @@
   --300: #9ecfff;
   --400: #6bb6ff;
   --500: #2895ff;
+
+  --grey-100: #020817;
+  --grey-500: #1f1e2660;
+  --grey-600: #020817;
 }
 
 /*@media (prefers-color-scheme: dark) {*/
