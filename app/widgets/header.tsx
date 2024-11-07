@@ -21,6 +21,7 @@ export function Header() {
           <AnimatedBackground
             defaultValue="Features"
             onValueChange={(value) => setState(value!)}
+            // @NOTE: custom color, because framer don't finding color from global.css
             className="rounded-4 bg-gradient-to-b from-white from-[22%] to-[#f6fbff] border border-[#e7f3ff] shadow-[0px_2px_4px_#00000010]"
             transition={{
               ease: 'easeInOut',

@@ -50,7 +50,9 @@ export default function RootLayout({
         className={`${mulishFont.className} ${mulishFont.variable} antialiased relative`}
       >
         <Header />
-        {children}
+        <main className="relative flex flex-col items-center w-full">
+          {children}
+        </main>
       </body>
     </html>
   )

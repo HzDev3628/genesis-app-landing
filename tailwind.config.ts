@@ -10,7 +10,7 @@ const config: Config = {
     container: {
       center: true,
       screens: {
-        xl: '1120px',
+        '2xl': '1400px',
       },
     },
     borderRadius: {
