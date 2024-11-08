@@ -3,7 +3,7 @@ import { Card } from '../components/ui'
 
 export function StayConnectedSection2() {
   return (
-    <section className="container flex flex-col items-center gap-8">
+    <section className="container flex flex-col items-center gap-8 mb-32">
       <h2 className='text-[32px] font-bold text-center leading-10'>
         Stay connected <br />
         with church everywhere

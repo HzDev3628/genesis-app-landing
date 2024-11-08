@@ -4,7 +4,7 @@ import { RiveAnimation } from '../components/rive-background'
 
 export default function HeroSection1() {
   return (
-    <section className="flex flex-col items-center justify-center w-full relative overflow-x-hidden h-[920px]">
+    <section className="flex flex-col items-center justify-center w-full relative overflow-x-hidden h-[920px] mb-32">
       <div className="w-full container flex items-center justify-between">
         <div className="flex flex-col items-start text-start text-6xl font-bold gap-8">
           <h1>
