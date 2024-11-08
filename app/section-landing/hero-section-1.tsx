@@ -1,9 +1,8 @@
-'use cache'
 import { AppDownloadLinks } from '../components'
 import Spline from '@splinetool/react-spline/next'
 import { RiveAnimation } from '../components/rive-background'
 
-export default async function HeroSection1() {
+export default function HeroSection1() {
   return (
     <section className="flex flex-col items-center justify-center w-full relative overflow-x-hidden h-[920px]">
       <div className="w-full container flex items-center justify-between">
