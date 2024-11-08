@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@rive-app/react-canvas": "^4.16.1",
     "@splinetool/react-spline": "^4.0.0",
     "@splinetool/runtime": "^1.9.35",
     "clsx": "^2.1.1",
