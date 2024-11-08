@@ -1,26 +1,28 @@
-'use client'
-import { useRive } from '@rive-app/react-canvas'
+'use cache'
 import { AppDownloadLinks } from '../components'
-import Spline from '@splinetool/react-spline'
+import Spline from '@splinetool/react-spline/next'
+import { RiveAnimation } from '../components/rive-background'
 
-export default function HeroSection1() {
-  const { RiveComponent: RiveAnimationOne } = useRive({
-    src: '/animation-rive/1.riv',
-    autoplay: true,
-  })
-  const { RiveComponent: RiveAnimationTwo } = useRive({
-    src: '/animation-rive/2.riv',
-    autoplay: true,
-  })
-
+export default async function HeroSection1() {
   return (
     <section className="flex flex-col items-center justify-center w-full relative overflow-x-hidden h-[920px]">
       <div className="w-full container flex items-center justify-between">
-        <div className="flex items-center w-max">
-          <AppDownloadLinks platform="ios" />
-          <AppDownloadLinks platform="android" />
+        <div className="flex flex-col items-start text-start text-6xl font-bold gap-8">
+          <h1>
+            Bridge your Church's <br /> communication gap <br />
+            with <span className="text-500">Genesis App</span>
+          </h1>
+          <span className="text-lg font-medium">
+            A simple yet powerful software platform that <br /> helps your
+            church communicate better.
+          </span>
+          <div className="flex items-center w-max mt-2 gap-8">
+            <AppDownloadLinks platform="ios" />
+            <AppDownloadLinks platform="android" />
+          </div>
         </div>
-        <div className="w-max h-max p-2 rounded-20 bg-gradient-to-br from-100 to-50 bg-opacity-50 border-50">
+
+        <div className="w-max h-max p-2 rounded-20 bg-gradient-to-br from-100 to-50 bg-opacity-50 border-50 border">
           <div className="w-[668px] h-[530px] rounded-16 overflow-hidden">
             <Spline
               scene="https://prod.spline.design/eolxO7z91jjYft7U/scene.splinecode"
@@ -33,9 +35,7 @@ export default function HeroSection1() {
           </div>
         </div>
       </div>
-
-      <RiveAnimationOne className="w-[2560px] h-[920px] absolute -z-10" />
-      <RiveAnimationTwo className="w-[2560px] h-[360px] absolute bottom-0" />
+      <RiveAnimation />
     </section>
   )
 }
