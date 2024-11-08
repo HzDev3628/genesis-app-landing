@@ -29,7 +29,7 @@ export function Card({ children }: { children: React.ReactNode }) {
         onMouseMove={handleMouseMove}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className="flex flex-col items-center justify-center text-center gap-6 w-[445px] h-[240px] rounded-16 px-16 shadow-[0px_7px_16px_#2895FF20]"
+        className="flex flex-col items-center justify-center text-center gap-3.5 w-[445px] h-[240px] rounded-16 px-16 pt-8 pb-10 shadow-[0px_7px_16px_#2895FF20]"
       >
         {children}
       </article>
