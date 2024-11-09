@@ -35,7 +35,7 @@ const config: Config = {
         500: 'var(--500)',
       },
       animation: {
-        'cloud': 'cloud 40s ease-in-out infinite',
+        'cloud': 'cloud 64s ease-in-out infinite',
       },
       keyframes: {
         'cloud': {
@@ -43,7 +43,7 @@ const config: Config = {
             transform: 'translateX(0px)',
           },
           '50%': {
-            transform: 'translateX(-500px)',
+            transform: 'translateX(500px)',
           },
         }
       },
