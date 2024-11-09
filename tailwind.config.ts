@@ -43,7 +43,7 @@ const config: Config = {
             transform: 'translateX(0px)',
           },
           '50%': {
-            transform: 'translateX(200px)',
+            transform: 'translateX(-200px)',
           },
         },
       },

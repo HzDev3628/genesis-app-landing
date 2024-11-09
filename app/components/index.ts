@@ -1,1 +1,2 @@
-export * from './app-dowload-links'
+export * from './app-download-links'
+export * from './background-animation'

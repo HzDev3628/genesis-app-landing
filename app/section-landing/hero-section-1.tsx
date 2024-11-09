@@ -1,6 +1,5 @@
-import { AppDownloadLinks } from '../components'
+import { AppDownloadLinks, BackgroundAnimation } from '../components'
 import Spline from '@splinetool/react-spline/next'
-import { RiveAnimation } from '../components/rive-background'
 
 export default function HeroSection1() {
   return (
@@ -22,7 +21,7 @@ export default function HeroSection1() {
         </div>
 
         <div className="w-max h-max p-2 rounded-20 bg-gradient-to-br from-100 to-50 bg-opacity-50 border-50 border">
-          <div className="w-[668px] h-[530px] rounded-16 overflow-hidden">
+          <div className="w-[668px] h-[530px] rounded-12 overflow-hidden">
             <Spline
               scene="https://prod.spline.design/eolxO7z91jjYft7U/scene.splinecode"
               style={{
@@ -34,7 +33,7 @@ export default function HeroSection1() {
           </div>
         </div>
       </div>
-      <RiveAnimation />
+      <BackgroundAnimation />
     </section>
   )
 }
