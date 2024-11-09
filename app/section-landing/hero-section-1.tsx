@@ -5,7 +5,7 @@ export default function HeroSection1() {
   return (
     <section className="flex flex-col items-center justify-center w-full relative overflow-x-hidden h-[1000px] mb-40">
       <div className="w-full container flex items-center justify-between">
-        <div className="flex flex-col items-start text-start text-6xl font-bold gap-8">
+        <div className="flex flex-col items-start text-start text-6xl font-bold gap-8 fade-in-up">
           <h1>
             Bridge your Church's <br /> communication gap <br />
             with <span className="text-500">Genesis App</span>

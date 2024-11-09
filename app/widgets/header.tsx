@@ -7,7 +7,7 @@ import AnimatedBackground from '../components/motion-ui/animation-background'
 export function Header() {
   const [state, setState] = useState('Features')
   return (
-    <header className="w-full flex items-center justify-center px-3 mx-auto mt-6 max-w-[736px] h-[72px] rounded-20 border border-white bg-opacity-50 fixed overflow-hidden z-50 left-1/2 -translate-x-1/2">
+    <header className="w-full flex items-center justify-center px-3 mx-auto mt-6 max-w-[736px] h-[72px] rounded-20 border border-white bg-opacity-50 backdrop-blur-md fixed overflow-hidden z-50 left-1/2 -translate-x-1/2">
       <div className="w-[263px] h-[356px] bg-200 opacity-40 blur-lg absolute left-0 -top-[290px]" />
       <div className="w-full h-12 grid grid-cols-4 items-center px-3 grid-rows-1 rounded-8 bg-gradient-to-b from-white to-50 drop-shadow-[0px_2px_4px_#00000010] relative z-10">
         <Image

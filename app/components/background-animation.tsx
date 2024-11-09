@@ -21,7 +21,7 @@ export const BackgroundAnimation = () => {
           className="!w-[3072px] h-[280px]"
         />
       </div>
-      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-b from-[#000]/0 to-50 z-20" />
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-[#000]/0 to-50 z-20" />
     </>
   )
 }
