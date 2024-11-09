@@ -3,7 +3,7 @@ import Spline from '@splinetool/react-spline/next'
 
 export default function HeroSection1() {
   return (
-    <section className="flex flex-col items-center justify-center w-full relative overflow-x-hidden h-[1000px] mb-32">
+    <section className="flex flex-col items-center justify-center w-full relative overflow-x-hidden h-[1000px] mb-40">
       <div className="w-full container flex items-center justify-between">
         <div className="flex flex-col items-start text-start text-6xl font-bold gap-8">
           <h1>
@@ -25,9 +25,9 @@ export default function HeroSection1() {
             <Spline
               scene="https://prod.spline.design/tI5PMTeEAwGEzMMg/scene.splinecode"
               style={{
-                width: '900px',
+                width: '1000px',
                 height: '530px',
-                marginLeft: '-140px',
+                marginLeft: '-150px',
               }}
             />
           </div>
