@@ -15,6 +15,9 @@
   --grey-100: #020817;
   --grey-500: #1f1e2660;
   --grey-600: #020817;
+
+  --spline-width: 1000px;
+  --spline-height: 530px;
 }
 
 /*@media (prefers-color-scheme: dark) {*/
@@ -29,21 +32,9 @@ body {
   background: var(--background);
 }
 
-.fade-in-up {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1s ease-out forwards;
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    filter: blur(10px);
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    filter: blur(0px);
-    transform: translateY(0);
+@media (max-width: 1440px) {
+  :root {
+    --spline-width: 800px;
+    --spline-height: 418px;
   }
 }

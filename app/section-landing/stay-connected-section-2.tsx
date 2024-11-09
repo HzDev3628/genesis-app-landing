@@ -47,13 +47,13 @@ const ITEMS: {
   {
     title: 'Community Services',
     description:
-      'Let your community know how\n church can be a blessing to them.',
+      'Let your community know how\n church can be a blessing to them',
     icon: '/2-section-stay-connected/community-services.svg',
   },
   {
     title: 'Members Directory',
     description:
-      'Get the list of members, birthdays,\n anniversaries and roles within the church.',
+      'Get the list of members, birthdays,\n anniversaries and roles within the church',
     icon: '/2-section-stay-connected/members.svg',
   },
   {
@@ -64,7 +64,7 @@ const ITEMS: {
   {
     title: 'Outreach',
     description:
-      'Keep track of leads within community and\n assign members to follow-up with them.',
+      'Keep track of leads within community and\n assign members to follow-up with them',
     icon: '/2-section-stay-connected/outreach.svg',
   },
   {
@@ -76,7 +76,7 @@ const ITEMS: {
   {
     title: 'Potluck',
     description:
-      'Turn pot-luck into pot-managed by \nletting members collaborate on dishes.',
+      'Turn pot-luck into pot-managed by \nletting members collaborate on dishes',
     icon: '/2-section-stay-connected/potluck.svg',
   },
 ]

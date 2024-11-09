@@ -24,12 +24,12 @@ export function Card({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <div className="relative w-max h-max">
+    <div className="relative w-full max-w-[445px] h-max">
       <article
         onMouseMove={handleMouseMove}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className="flex flex-col items-center justify-center text-center gap-3.5 w-[445px] h-[240px] rounded-16 px-16 pt-8 pb-10 shadow-[0px_7px_16px_#2895FF20]"
+        className="flex flex-col items-center justify-center text-center gap-3.5 w-full h-[240px] rounded-16 pt-8 pb-10 shadow-[0px_7px_16px_#2895FF20]"
       >
         {children}
       </article>
@@ -40,7 +40,7 @@ export function Card({ children }: { children: React.ReactNode }) {
           border: '1px solid #2895ff',
           WebkitMaskImage: `radial-gradient(50% 100px at ${position.x}px ${position.y}px, black 45%, transparent)`,
         }}
-        className="border-500 pointer-events-none absolute left-0 top-0 z-10 w-[445px] h-[240px] cursor-default rounded-16 border bg-[transparent] p-3.5 opacity-0  transition-opacity duration-500"
+        className="border-500 pointer-events-none absolute left-0 top-0 z-10 w-full max-w-[445px] h-[240px] cursor-default rounded-16 border bg-[transparent] p-3.5 opacity-0  transition-opacity duration-500"
       />
     </div>
   )

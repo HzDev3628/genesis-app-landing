@@ -11,7 +11,11 @@ const config: Config = {
       center: true,
       screens: {
         '2xl': '1400px',
+        xl: '1120px',
       },
+    },
+    screens: {
+      laptop: '1440px',
     },
     borderRadius: {
       20: '20px',
