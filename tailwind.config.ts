@@ -34,6 +34,19 @@ const config: Config = {
         400: 'var(--400)',
         500: 'var(--500)',
       },
+      animation: {
+        cloud: 'cloud 40s ease-in-out infinite',
+      },
+      keyframes: {
+        cloud: {
+          '0%, 100%': {
+            transform: 'translateX(0px)',
+          },
+          '50%': {
+            transform: 'translateX(200px)',
+          },
+        },
+      },
     },
   },
   plugins: [],
