@@ -5,7 +5,7 @@ import Image from 'next/image'
 export const BackgroundAnimation = () => {
   return (
     <>
-      <div className="w-[3072px] h-[920px] absolute -z-10 right-0 top-0 animate-cloud select-none">
+      <div className="w-[3072px] h-[1000px] absolute -z-10 right-0 top-0 animate-cloud select-none">
         <Image
           src={'/cloud-1.png'}
           alt="Cloud"
