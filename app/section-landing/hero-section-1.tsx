@@ -23,7 +23,7 @@ export default function HeroSection1() {
         <div className="w-max h-max p-2 rounded-20 bg-gradient-to-br from-100 to-50 bg-opacity-50 border-50 border">
           <div className="w-[668px] h-[530px] rounded-12 overflow-hidden">
             <Spline
-              scene="https://prod.spline.design/eolxO7z91jjYft7U/scene.splinecode"
+              scene="https://prod.spline.design/tI5PMTeEAwGEzMMg/scene.splinecode"
               style={{
                 width: '900px',
                 height: '530px',
