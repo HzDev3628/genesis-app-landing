@@ -15,6 +15,8 @@ const config: Config = {
       },
     },
     screens: {
+      tablet: '725px',
+      "small-laptop": '1000px',
       laptop: '1440px',
     },
     borderRadius: {

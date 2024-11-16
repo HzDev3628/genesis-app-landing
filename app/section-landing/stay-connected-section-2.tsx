@@ -8,7 +8,7 @@ export function StayConnectedSection2() {
         Stay connected <br />
         with church everywhere
       </h2>
-      <div className="grid grid-cols-3 grid-rows-3 w-full gap-8">
+      <div className="grid grid-cols-1 tablet:grid-cols-2 small-laptop:grid-cols-3 grid-rows-5 small-laptop:grid-rows-3 w-full gap-8">
         {ITEMS.map(({ title, description, icon }) => (
           <Card key={title}>
             <Image src={icon} width={60} height={60} alt={title} />

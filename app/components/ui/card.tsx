@@ -24,7 +24,7 @@ export function Card({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <div className="relative w-full max-w-[445px] h-max">
+    <div className="mx-auto relative w-full max-w-[445px] h-max">
       <article
         onMouseMove={handleMouseMove}
         onMouseEnter={handleMouseEnter}
